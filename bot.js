@@ -15,7 +15,7 @@ const http = require('http');
     setInterval(() => {
     http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
     }, 280000);
-const token = "NjE2Mzg1MzQ1OTA2Mjc4NTcy.XWt14w.1x7VVyMcQUakSD1M9GDWSa5yYFU";
+const token = ""; //BURAYA TOKEN
 const youtube = new YouTube(GOOGLE_API_KEY);
 const ytdl = require('ytdl-core');
 const prefix = ayarlar.prefix;
